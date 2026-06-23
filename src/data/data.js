@@ -187,11 +187,11 @@ export const achievements = [
 
 export const certificates = [
     {
-        title: "Dummy Certificate 1",
-        issuer: "Coursera / DeepLearning.AI",
-        date: "Jan 2025",
+        title: "SIL AIR 1",
+        issuer: "StemRobo",
+        date: "Aug 2025",
         url: "#",
-        thumbnail: "https://placehold.co/600x400/png?text=Certificate+1"
+        thumbnail: "/public/SIL.JPG"
     },
     {
         title: "Dummy Certificate 2",

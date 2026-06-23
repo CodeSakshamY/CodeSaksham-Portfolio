@@ -1,102 +1,120 @@
 export const about = {
-name: "Saksham Yadav (CodeSaksham)",
-role: "Student Founder • Researcher • AI & Robotics Builder",
-about: "Multidisciplinary student innovator, researcher, and founder working across artificial intelligence, robotics, cybersecurity, healthcare technology, electronics, scientific research, and entrepreneurship. Passionate about building impactful technology, leading innovation communities, mentoring researchers, and turning ambitious ideas into real-world solutions.",
-email: "[globalsaksham@gmail.com](mailto:globalsaksham@gmail.com)",
+    name: "Saksham Yadav (CodeSaksham)",
+    role: "Your Profession",
+    about: "A minimal, clean portfolio template built with Next.js. Perfect for developers who want a simple yet professional online presence without the complexity.",
+    email: "your.email@example.com",
 };
 
 export const seo = {
-title: `${about.name} | ${about.role}`,
-description: "Portfolio of Saksham Yadav — Student Founder, Researcher, AI & Robotics Builder. National award winner, cybersecurity enthusiast, researcher, and technology innovator.",
-keywords: "Saksham Yadav, CodeSaksham, AI, Robotics, Cybersecurity, Research, STEM, Healthcare AI, Climate Tech, Startup Founder, HackSpace CMS",
+    title: `${about.name} | ${about.role}`,
+    description: "Minimal, clean Next.js portfolio template for developers seeking a simple, professional online presence without extra complexity.",
+    keywords: "portfolio, web developer, Next.js, developer portfolio, minimal portfolio",
 }
 
+export const forms = {
+    formspreeUrl: "https://formspree.io/f/<url>",
+}
+
+export const skills = [
+    { name: "Html", alt: "html logo", icon: "/html.svg" },
+    { name: "Css", alt: "css logo", icon: "/css.svg" },
+    { name: "Js", alt: "js logo", icon: "/js.svg" },
+    { name: "Tailwind", alt: "tailwind logo", icon: "/tailwind.svg" },
+    { name: "React Js", alt: "react logo", icon: "/react.svg" },
+    { name: "Next Js", alt: "nextjs logo", icon: "/nextjs.svg" },
+];
+
 export const socials = {
-github: "https://github.com/CodeSakshamY",
-twitter: "https://x.com/CodeSakshamY",
-instagram: "https://www.instagram.com/saksham_30_09",
-linkedin: "https://www.linkedin.com/in/saksham-yadav-090627302/",
+    github: "https://github.com/sachinbhujel",
+    twitter: "https://twitter.com/sachinbhujel909",
+    instagram: "https://www.instagram.com/imsachinbhujel",
+    facebook: "https://www.facebook.com/imsachinbhujel",
+};
+
+export const projects = {
+    pinProjects: [
+        {
+            title: "Project 1",
+            description:
+                "A sleek, modern portfolio site to showcase your work and skills. Responsive design with smooth navigation and SEO optimization.",
+            tags: ["CSS", "React Js"],
+            link: "",
+        },
+        {
+            title: "Project 2",
+            description:
+                "A clean, minimal blog setup featuring dynamic content, category filters, and easy-to-read layouts. Perfect for sharing your ideas.",
+            tags: ["CSS", "React Js"],
+            link: "",
+        },
+        {
+            title: "Project 3",
+            description:
+                "A fast and scalable online store with product listings, cart functionality, and seamless checkout experience. Built for performance.",
+            tags: ["CSS", "React Js"],
+            link: "",
+        },
+    ],
+    otherProjects: [
+        {
+            title: "Project 4",
+            description:
+                "A sleek, modern portfolio site to showcase your work and skills. Responsive design with smooth navigation and SEO optimization.",
+            tags: ["CSS", "React Js"],
+            link: "",
+        },
+        {
+            title: "Project 5",
+            description:
+                "A clean, minimal blog setup featuring dynamic content, category filters, and easy-to-read layouts. Perfect for sharing your ideas.",
+            tags: ["CSS", "React Js"],
+            link: "",
+        },
+        {
+            title: "Project 6",
+            description:
+                "A fast and scalable online store with product listings, cart functionality, and seamless checkout experience. Built for performance.",
+            tags: ["CSS", "React Js"],
+            link: "",
+        },
+    ],
 };
 
 export const experience = [
-{
-title: "President & Founder — HackSpace CMS",
-description:
-"Founded and lead a student-driven technology community focused on AI, robotics, cybersecurity, engineering, scientific research, innovation, workshops, mentorship, and collaborative projects.",
-date: "Present",
-},
-{
-title: "Founder & Board Member — Incubation & Innovation Cell",
-description:
-"Established and helped lead an innovation ecosystem supporting student researchers and innovators. Under the initiative, students achieved selections to IRIS, INSEF, RSI, Anveshna by Prayoga, and LGP.",
-date: "Present",
-},
-{
-title: "Ambassador — Project GRID",
-description:
-"Representing Project GRID in collaboration with IIT Delhi and promoting technology, innovation, research, and student engagement initiatives.",
-date: "Present",
-},
-{
-title: "Research Mentor — IRIS Team",
-description:
-"Mentoring a student research team through project development, experimentation, documentation, presentation, and competition preparation.",
-date: "Present",
-},
+    {
+        title: "Frontend Developer at Tech Solutions",
+        description:
+            "Worked on building and maintaining responsive web applications using React.js and Next.js, improving UI performance and user experience.",
+        date: "15/01/2024",
+    },
+    {
+        title: "Web Developer Intern at Creative Studio",
+        description:
+            "Assisted in designing website layouts, wrote clean HTML/CSS code, and collaborated with the team on JavaScript features for client projects.",
+        date: "10/06/2023",
+    },
+    {
+        title: "Junior Developer at Innovate Labs",
+        description:
+            "Developed and tested frontend components, optimized web pages for speed, and contributed to team code reviews and debugging sessions.",
+        date: "01/09/2022",
+    },
 ];
 
-export const projects = {
-pinProjects: [
-{
-title: "PSYCON",
-description:
-"ISEF research project combining physiological signals, behavioral analytics, neuroscience, and machine learning to identify abnormal cognitive and behavioral patterns.",
-tags: ["AI", "Neuroscience", "Research", "Machine Learning"],
-link: "",
-},
-{
-title: "AlzGuardian",
-description:
-"AI-powered predictive model for Alzheimer's disease stage assessment using non-invasive biomarkers, achieving 94% accuracy and 98% recall.",
-tags: ["Healthcare AI", "Machine Learning", "Research"],
-link: "",
-},
-{
-title: "RCO2",
-description:
-"Award-winning climate-tech and robotics project focused on carbon dioxide monitoring, environmental intelligence, and automated decision-making systems.",
-tags: ["Climate Tech", "Robotics", "Embedded Systems"],
-link: "",
-},
-],
-otherProjects: [
-{
-title: "AvailX",
-description:
-"Dual-platform service marketplace connecting customers and service providers through scalable web and mobile infrastructure.",
-tags: ["Startup", "Full Stack", "Product Development"],
-link: "",
-},
-{
-title: "StreamSync",
-description:
-"Real-time watch party platform with synchronized playback, shared rooms, live chat, and WebSocket-powered communication.",
-tags: ["Next.js", "FastAPI", "WebSockets"],
-link: "",
-},
-{
-title: "EasyEDA Hackatime Tracker",
-description:
-"Engineering productivity tool designed to integrate PCB design workflows with development activity analytics.",
-tags: ["PCB Design", "Developer Tools"],
-link: "",
-},
-{
-title: "HackSpace CMS",
-description:
-"Student-led innovation community dedicated to AI, robotics, cybersecurity, engineering, research, and technology education.",
-tags: ["Community", "Leadership", "Innovation"],
-link: "",
-},
-],
-};
+export const blogs = [
+    {
+        title: "Understanding React Hooks",
+        date: "12/03/2025",
+        link: "#",
+    },
+    {
+        title: "CSS Grid vs Flexbox: When to Use Which",
+        date: "25/12/2024",
+        link: "#",
+    },
+    {
+        title: "Next.js SEO Best Practices",
+        date: "10/07/2024",
+        link: "#",
+    },
+];

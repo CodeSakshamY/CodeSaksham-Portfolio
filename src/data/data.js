@@ -32,12 +32,42 @@ export const skills = [
 ];
 
 export const hardwareSkills = [
-    { name: "Arduino Uno", alt: "Arduino Uno logo", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg" },
-    { name: "ESP32", alt: "ESP32 logo", icon: "https://placehold.co/100x100/png?text=ESP32" },
-    { name: "PCB Design", alt: "PCB logo", icon: "https://placehold.co/100x100/png?text=PCB" },
-    { name: "Sensors", alt: "Sensors logo", icon: "https://placehold.co/100x100/png?text=Sensors" },
-    { name: "Actuators", alt: "Actuators logo", icon: "https://placehold.co/100x100/png?text=Actuators" },
-    { name: "Robotics", alt: "Robotics logo", icon: "https://placehold.co/100x100/png?text=Robotics" },
+    {
+        category: "Hardware Design Tools",
+        items: ["EasyEDA", "KiCad", "TinkerCad"]
+    },
+    {
+        category: "Microcontrollers",
+        items: ["Arduino Uno", "Arduino Nano", "ESP32", "ESP8266"]
+    },
+    {
+        category: "PCB & Electronics",
+        items: ["PCB Design", "Schematic Design", "Circuit Design", "Analog Electronics", "Digital Electronics", "Hardware Debugging", "Prototype Development", "PCB Fabrication Preparation", "PCB Assembly & Soldering"]
+    },
+    {
+        category: "Communication Protocols",
+        items: ["UART", "I2C", "SPI", "RF Communication", "Bluetooth", "WiFi"]
+    },
+    {
+        category: "Sensors",
+        items: ["MQ Gas Sensors", "DHT11", "DHT22", "Ultrasonic Sensors", "IR Sensors", "Temperature Sensors", "Body Temperature Sensors", "GSR Sensors", "Accelerometers", "Heart Rate Sensors", "Microphones", "Ambient Light Sensors"]
+    },
+    {
+        category: "Actuators",
+        items: ["Servo Motors", "DC Motors", "Stepper Motors", "Relays", "Quarter-Turn Valve Actuators"]
+    },
+    {
+        category: "Power Electronics",
+        items: ["Voltage Regulators", "MOSFET Circuits", "Buck Converters", "Battery Systems", "Power Supply Design"]
+    },
+    {
+        category: "Fabrication & Manufacturing",
+        items: ["3D Printing", "3D Printing Workflows", "Cura", "Blender", "Laser Cutting", "CNC Fabrication", "Mechanical Assembly"]
+    },
+    {
+        category: "Robotics",
+        items: ["Line Following Robots", "Autonomous Robots", "Obstacle Avoidance Robots", "Object Detection Robots", "Robo Soccer", "Robo War"]
+    }
 ];
 
 export const socials = {
@@ -55,7 +85,6 @@ export const projects = {
             tags: ["Three.js", "WebGL", "Blender", "3D Graphics", "Interactive Experiences"],
             github: "https://github.com/CodeSakshamY/BHACK3D/tree/main",
             demo: "https://bhack-3-d-wl7u.vercel.app/",
-            image: "https://placehold.co/600x400/png?text=BHACK+Preview", // Replace with actual preview image
         },
         {
             title: "PSYCON",

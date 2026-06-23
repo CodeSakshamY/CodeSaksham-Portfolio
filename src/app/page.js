@@ -2,6 +2,7 @@ import ProjectsList from "./components/ProjectsList";
 import TechLists from "./components/TechLists";
 import About from "./components/About";
 import Profile from "./components/Profile";
+import HardwareStack from "./components/HardwareStack";
 import Experience from "./components/Experience";
 import Achievements from "./components/Achievements";
 import Certificates from "./components/Certificates";
@@ -14,6 +15,7 @@ export default function Home() {
                     <About />
                     <ProjectsList />
                     <TechLists />
+                    <HardwareStack />
                     <Experience />
                     <Achievements />
                     <Certificates />

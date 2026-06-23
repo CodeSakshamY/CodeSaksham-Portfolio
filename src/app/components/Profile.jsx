@@ -4,8 +4,9 @@ import { about } from "@/data/data";
 export default function Profile() {
     return (
         <>
+            {/* Replace this placeholder URL with the URL to your actual profile picture */}
             <img
-                src="https://i.imgur.com/zjGPTRC.jpeg"
+                src="https://placehold.co/400x400/png?text=Profile+Photo"
                 className="w-[70px] h-[70px] rounded-[50%] object-cover object-center"
                 alt={`${about.name}'s profile`}
             />
@@ -22,10 +23,7 @@ export default function Profile() {
                 </svg>
             </div>
             <div className="mt-1.5 flex items-center gap-1">
-                <p className="text-base text-base-content/60">{about.role} // </p>
-                <p className="underline cursor-pointer text-base-content/90">
-                    Solo
-                </p>
+                <p className="text-base text-base-content/60">{about.role}</p>
             </div>
             <div className="flex items-center mt-3 gap-3">
                 <a href={socials.instagram}>
@@ -72,7 +70,7 @@ export default function Profile() {
                     </svg>
                 </a>
 
-                <a href={socials.facebook}>
+                <a href={socials.linkedin}>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="20"
@@ -83,9 +81,11 @@ export default function Profile() {
                         strokeWidth="2"
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        className="lucide lucide-facebook-icon lucide-facebook cursor-pointer"
+                        className="lucide lucide-linkedin-icon lucide-linkedin cursor-pointer"
                     >
-                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                        <rect width="4" height="12" x="2" y="9" />
+                        <circle cx="4" cy="4" r="2" />
                     </svg>
                 </a>
 

@@ -26,6 +26,13 @@ export default function Experience() {
                                     <p className="mt-0.5 text-sm text-base-content/80">
                                         {item.description}
                                     </p>
+                                    {item.outcomes && item.outcomes.length > 0 && (
+                                        <ul className="list-disc ml-5 mt-2 text-sm text-base-content/80">
+                                            {item.outcomes.map((outcome, i) => (
+                                                <li key={i}>{outcome}</li>
+                                            ))}
+                                        </ul>
+                                    )}
                                 </div>
                             </li>
                         ))}

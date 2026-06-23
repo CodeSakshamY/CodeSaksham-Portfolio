@@ -1,120 +1,140 @@
 export const about = {
-    name: "Saksham Yadav (CodeSaksham)",
-    role: "Your Profession",
-    about: "A minimal, clean portfolio template built with Next.js. Perfect for developers who want a simple yet professional online presence without the complexity.",
-    email: "your.email@example.com",
+    name: "Saksham Yadav",
+    role: "Student Researcher, Builder, and Founder",
+    about: "I'm a student from City Montessori School who enjoys building things across AI, robotics, cybersecurity, research, and technology. My work ranges from healthcare AI and behavioral analysis research to robotics, climate technology, and software products. I've competed in national-level competitions, mentored research teams, and built communities that help students learn, collaborate, and create meaningful projects.",
+    email: "globalsaksham@gmail.com",
 };
 
 export const seo = {
     title: `${about.name} | ${about.role}`,
-    description: "Minimal, clean Next.js portfolio template for developers seeking a simple, professional online presence without extra complexity.",
-    keywords: "portfolio, web developer, Next.js, developer portfolio, minimal portfolio",
+    description: "Portfolio of Saksham Yadav, a student researcher, builder, and founder specializing in AI, robotics, cybersecurity, and software products.",
+    keywords: "Saksham Yadav, CodeSaksham, student researcher, web developer, Next.js, AI, robotics, cybersecurity, portfolio",
 }
 
 export const forms = {
-    formspreeUrl: "https://formspree.io/f/<url>",
+    formspreeUrl: "https://formspree.io/f/<url>", // Placeholder
 }
 
 export const skills = [
-    { name: "Html", alt: "html logo", icon: "/html.svg" },
-    { name: "Css", alt: "css logo", icon: "/css.svg" },
-    { name: "Js", alt: "js logo", icon: "/js.svg" },
-    { name: "Tailwind", alt: "tailwind logo", icon: "/tailwind.svg" },
-    { name: "React Js", alt: "react logo", icon: "/react.svg" },
-    { name: "Next Js", alt: "nextjs logo", icon: "/nextjs.svg" },
+    { name: "Python", alt: "Python logo", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" },
+    { name: "C++", alt: "C++ logo", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" },
+    { name: "JavaScript", alt: "JavaScript logo", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" },
+    { name: "TypeScript", alt: "TypeScript logo", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" },
+    { name: "React", alt: "React logo", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" },
+    { name: "Next.js", alt: "Next.js logo", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" },
+    { name: "Node.js", alt: "Node.js logo", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" },
+    { name: "Tailwind CSS", alt: "Tailwind CSS logo", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" },
+    { name: "FastAPI", alt: "FastAPI logo", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" },
+    { name: "Docker", alt: "Docker logo", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" },
 ];
 
 export const socials = {
-    github: "https://github.com/sachinbhujel",
-    twitter: "https://twitter.com/sachinbhujel909",
-    instagram: "https://www.instagram.com/imsachinbhujel",
-    facebook: "https://www.facebook.com/imsachinbhujel",
+    github: "https://github.com/CodeSakshamY",
+    twitter: "https://x.com/CodeSakshamY",
+    instagram: "https://www.instagram.com/saksham_30_09",
+    linkedin: "https://www.linkedin.com/in/saksham-yadav-090627302/",
 };
 
 export const projects = {
     pinProjects: [
         {
-            title: "Project 1",
-            description:
-                "A sleek, modern portfolio site to showcase your work and skills. Responsive design with smooth navigation and SEO optimization.",
-            tags: ["CSS", "React Js"],
-            link: "",
+            title: "PSYCON",
+            description: "A research project that studies physiological and behavioral signals to identify unusual cognitive and behavioral patterns. The goal is to understand how measurable human signals can provide insights into mental and behavioral states.",
+            tags: ["Research", "Behavioral Analysis", "AI"],
+            link: "#",
         },
         {
-            title: "Project 2",
-            description:
-                "A clean, minimal blog setup featuring dynamic content, category filters, and easy-to-read layouts. Perfect for sharing your ideas.",
-            tags: ["CSS", "React Js"],
-            link: "",
+            title: "AlzGuardian",
+            description: "A machine learning model that predicts the likelihood of a person being in different stages of Alzheimer's disease using non-invasive biomarkers. Achieved 94% accuracy and 98% recall.",
+            tags: ["Machine Learning", "Healthcare AI"],
+            link: "#",
         },
         {
-            title: "Project 3",
-            description:
-                "A fast and scalable online store with product listings, cart functionality, and seamless checkout experience. Built for performance.",
-            tags: ["CSS", "React Js"],
-            link: "",
+            title: "RCO2",
+            description: "A robotics and climate technology project focused on monitoring carbon dioxide levels and using environmental data to support better environmental decisions. Developed for STEAM Innovation League and WRO competitions.",
+            tags: ["Robotics", "Climate Tech", "Hardware"],
+            link: "#",
         },
     ],
     otherProjects: [
         {
-            title: "Project 4",
-            description:
-                "A sleek, modern portfolio site to showcase your work and skills. Responsive design with smooth navigation and SEO optimization.",
-            tags: ["CSS", "React Js"],
-            link: "",
+            title: "AvailX",
+            description: "A service marketplace platform that connects customers with service providers through separate user and provider applications.",
+            tags: ["Full Stack", "Marketplace"],
+            link: "#",
         },
         {
-            title: "Project 5",
-            description:
-                "A clean, minimal blog setup featuring dynamic content, category filters, and easy-to-read layouts. Perfect for sharing your ideas.",
-            tags: ["CSS", "React Js"],
-            link: "",
+            title: "StreamSync",
+            description: "A watch-party platform that lets people watch YouTube videos together in synchronized rooms with real-time chat and shared controls.",
+            tags: ["WebSockets", "React"],
+            link: "#",
         },
         {
-            title: "Project 6",
-            description:
-                "A fast and scalable online store with product listings, cart functionality, and seamless checkout experience. Built for performance.",
-            tags: ["CSS", "React Js"],
-            link: "",
+            title: "EasyEDA Hackatime Tracker",
+            description: "A tool that tracks time spent on PCB design work, making it easier to monitor and analyze hardware development effort.",
+            tags: ["Tools", "Analytics"],
+            link: "#",
+        },
+        {
+            title: "HackSpace CMS",
+            description: "A student-led technology community focused on AI, robotics, cybersecurity, research, innovation, and hands-on learning.",
+            tags: ["Community", "Education"],
+            link: "#",
         },
     ],
 };
 
 export const experience = [
     {
-        title: "Frontend Developer at Tech Solutions",
-        description:
-            "Worked on building and maintaining responsive web applications using React.js and Next.js, improving UI performance and user experience.",
-        date: "15/01/2024",
+        title: "President & Founder, HackSpace CMS",
+        description: "Started and lead a student community focused on technology, research, innovation, and hands-on learning through projects, workshops, mentorship, and collaboration.",
+        date: "Present",
+        outcomes: []
     },
     {
-        title: "Web Developer Intern at Creative Studio",
-        description:
-            "Assisted in designing website layouts, wrote clean HTML/CSS code, and collaborated with the team on JavaScript features for client projects.",
-        date: "10/06/2023",
+        title: "Founder & Board Member, Incubation and Innovation Cell",
+        description: "Helped build a platform where students can pursue research and innovation projects with mentorship and guidance.",
+        date: "Present",
+        outcomes: [
+            "1 Team selected for IRIS",
+            "2 Teams selected for INSEF",
+            "1 Student selected for RSI",
+            "2 Teams selected for Anveshna by Prayoga",
+            "1 Student selected for LGP"
+        ]
     },
     {
-        title: "Junior Developer at Innovate Labs",
-        description:
-            "Developed and tested frontend components, optimized web pages for speed, and contributed to team code reviews and debugging sessions.",
-        date: "01/09/2022",
+        title: "Ambassador, Project GRID",
+        description: "Working with IIT Delhi through Project GRID to support student innovation, research, and technology initiatives.",
+        date: "Present",
+        outcomes: []
+    },
+    {
+        title: "Research Mentor",
+        description: "Mentoring a student team preparing for IRIS, helping with research design, experimentation, documentation, and presentations.",
+        date: "Present",
+        outcomes: []
     },
 ];
 
-export const blogs = [
+export const achievements = [
     {
-        title: "Understanding React Hooks",
-        date: "12/03/2025",
-        link: "#",
+        title: "STEAM Innovation League National Winner (AIR 1)",
+        description: "Secured first place nationwide in the STEAM Innovation League for an innovative project addressing a real-world challenge."
     },
     {
-        title: "CSS Grid vs Flexbox: When to Use Which",
-        date: "25/12/2024",
-        link: "#",
+        title: "World Robot Olympiad India Finalist (AIR 14)",
+        description: "Placed 14th across India in the highly competitive World Robot Olympiad, showcasing advanced robotics design and programming."
     },
     {
-        title: "Next.js SEO Best Practices",
-        date: "10/07/2024",
-        link: "#",
+        title: "INSEF Bronze Medalist",
+        description: "Awarded a bronze medal at the Indian National Science and Engineering Fair for scientific research and innovation."
     },
+    {
+        title: "Top 25 Internationally in the International Xavier Cyber Security Challenge",
+        description: "Ranked among the top 25 participants globally in this rigorous cybersecurity and ethical hacking competition."
+    }
 ];
+
+// Intentionally left empty as no blogs were provided.
+export const blogs = [];

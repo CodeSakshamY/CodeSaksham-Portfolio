@@ -3,7 +3,7 @@ import TechLists from "./components/TechLists";
 import About from "./components/About";
 import Profile from "./components/Profile";
 import Experience from "./components/Experience";
-
+import Achievements from "./components/Achievements";
 export default function Home() {
     return (
         <>
@@ -14,6 +14,7 @@ export default function Home() {
                     <ProjectsList />
                     <TechLists />
                     <Experience />
+                    <Achievements />
                 </main>
             </div>
         </>

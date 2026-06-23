@@ -26,6 +26,18 @@ export const skills = [
     { name: "Tailwind CSS", alt: "Tailwind CSS logo", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" },
     { name: "FastAPI", alt: "FastAPI logo", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" },
     { name: "Docker", alt: "Docker logo", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" },
+    { name: "Three.js", alt: "Three.js logo", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/threejs/threejs-original.svg" },
+    { name: "WebGL", alt: "WebGL logo", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opengl/opengl-original.svg" },
+    { name: "Blender", alt: "Blender logo", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blender/blender-original.svg" },
+];
+
+export const hardwareSkills = [
+    { name: "Arduino Uno", alt: "Arduino Uno logo", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg" },
+    { name: "ESP32", alt: "ESP32 logo", icon: "https://placehold.co/100x100/png?text=ESP32" },
+    { name: "PCB Design", alt: "PCB logo", icon: "https://placehold.co/100x100/png?text=PCB" },
+    { name: "Sensors", alt: "Sensors logo", icon: "https://placehold.co/100x100/png?text=Sensors" },
+    { name: "Actuators", alt: "Actuators logo", icon: "https://placehold.co/100x100/png?text=Actuators" },
+    { name: "Robotics", alt: "Robotics logo", icon: "https://placehold.co/100x100/png?text=Robotics" },
 ];
 
 export const socials = {
@@ -37,6 +49,14 @@ export const socials = {
 
 export const projects = {
     pinProjects: [
+        {
+            title: "BHACK",
+            description: "A 3D web experience built to explore real-time graphics, animation, and immersive web design using a custom Blender-created model. The project focuses on bringing interactive 3D content to the browser through smooth animations, responsive controls, optimized rendering, and modern web technologies.",
+            tags: ["Three.js", "WebGL", "Blender", "3D Graphics", "Interactive Experiences"],
+            github: "https://github.com/CodeSakshamY/BHACK3D/tree/main",
+            demo: "https://bhack-3-d-wl7u.vercel.app/",
+            image: "https://placehold.co/600x400/png?text=BHACK+Preview", // Replace with actual preview image
+        },
         {
             title: "PSYCON",
             description: "A research project that studies physiological and behavioral signals to identify unusual cognitive and behavioral patterns. The goal is to understand how measurable human signals can provide insights into mental and behavioral states.",
@@ -133,6 +153,23 @@ export const achievements = [
     {
         title: "Top 25 Internationally in the International Xavier Cyber Security Challenge",
         description: "Ranked among the top 25 participants globally in this rigorous cybersecurity and ethical hacking competition."
+    }
+];
+
+export const certificates = [
+    {
+        title: "Dummy Certificate 1",
+        issuer: "Coursera / DeepLearning.AI",
+        date: "Jan 2025",
+        url: "#",
+        thumbnail: "https://placehold.co/600x400/png?text=Certificate+1"
+    },
+    {
+        title: "Dummy Certificate 2",
+        issuer: "Google",
+        date: "Dec 2024",
+        url: "#",
+        thumbnail: "https://placehold.co/600x400/png?text=Certificate+2"
     }
 ];
 

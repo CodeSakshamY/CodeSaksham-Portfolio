@@ -4,6 +4,7 @@ import About from "./components/About";
 import Profile from "./components/Profile";
 import Experience from "./components/Experience";
 import Achievements from "./components/Achievements";
+import Certificates from "./components/Certificates";
 export default function Home() {
     return (
         <>
@@ -15,6 +16,7 @@ export default function Home() {
                     <TechLists />
                     <Experience />
                     <Achievements />
+                    <Certificates />
                 </main>
             </div>
         </>

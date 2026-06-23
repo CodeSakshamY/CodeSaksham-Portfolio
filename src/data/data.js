@@ -194,11 +194,11 @@ export const certificates = [
         thumbnail: "/SIL.JPG"
     },
     {
-        title: "Dummy Certificate 2",
-        issuer: "Google",
-        date: "Dec 2024",
+        title: "INSEF BRONZE",
+        issuer: "Science Society of India",
+        date: "Feb 2026",
         url: "#",
-        thumbnail: "https://placehold.co/600x400/png?text=Certificate+2"
+        thumbnail: "/INSEF.PNG"
     }
 ];
 

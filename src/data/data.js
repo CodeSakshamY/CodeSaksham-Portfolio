@@ -191,7 +191,7 @@ export const certificates = [
         issuer: "StemRobo",
         date: "Aug 2025",
         url: "#",
-        thumbnail: "/public/SIL.JPG"
+        thumbnail: "/SIL.JPG"
     },
     {
         title: "Dummy Certificate 2",
